@@ -1,0 +1,412 @@
+.background
+{
+    background-color: transparent;
+    
+}
+
+.lower_border
+{
+    border-bottom: rgba(255, 255, 255, 0.288) 1px solid;
+}
+
+.bg_img_fit
+{
+    object-fit: cover;
+    position: relative;
+   
+}
+
+.box_shadow
+{
+  
+box-shadow: 0 0 0 1000px rgba(31, 31, 31, 0.55);
+    
+
+}
+
+.carousel-item img
+{
+    opacity: 65%;
+    
+}
+
+.carousel-item
+{
+    background-color: black;
+}
+
+
+.menu_options_style
+{
+    color:white !important;
+}
+
+.text_buttons_section{
+    padding-bottom: 18%;
+}
+
+.text_buttons_section h5
+{
+    animation-name: growAppear;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    
+}
+
+.text_buttons_section p
+{
+    animation-name: growAppear;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.8s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    
+}
+
+
+.main_title
+{
+    font-size: 80px;
+    font-weight: 800;
+
+}
+
+.main_subtitle
+{
+    font-size: 28px;
+    font-weight: 300;
+
+}
+.btn-outline-secondary
+{
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    padding: 10px 35px 10px 35px;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.btn-outline-secondary:hover{
+    background-color: white;
+    border-color: white;
+    color:black;
+}
+
+.btn-gradient
+{
+    padding: 12px 35px 12px 35px;
+    font-size: 12px;
+    font-weight: 700;
+    color:#ffffff;
+    background-color:#00c3da;
+    border: none;
+ 
+    border-radius: 5px;
+    
+ 
+    transition: gradient 250ms ease-in-out;
+    
+
+
+}
+
+
+.btn-gradient:hover{
+
+    transform : translateY(10px);
+    
+    
+}
+
+.text_buttons_section .btn, .btn-gradient
+{
+    animation-name: growAppear;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    
+}
+
+
+@keyframes growAppear{
+    
+    0%{
+            transform: scale(0.9);
+            visibility: visible;
+          
+            
+    }
+    100% {
+         transform: scale(1);
+         visibility: visible;
+         
+    } 
+}
+
+.btn-readmore
+{
+    
+    border: 1px grey solid;
+    font-size: 13px;
+    border-radius: 0;
+    padding: 12px 28px 12px 28px;
+    background-color: white;
+    color: rgb(90, 90, 90);
+    
+}
+
+.btn-readmore:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-color: black;
+
+
+}
+
+.sectionA
+{
+    width:50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+
+.sectionA p 
+{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.section_text
+{
+   
+     text-align: center;
+     margin: auto;
+     padding-top: 30px; 
+     position: relative;
+    
+   
+  
+}
+
+.section_background_letter
+{
+    position: absolute;
+    font-size: 70px;
+    font-weight: 700;
+    color: rgba(161, 161, 161, 0.247);
+    top:40%;
+ 
+
+}
+
+.section_headertext
+{
+
+    position:absolute;
+    z-index: 3;
+}
+
+.sectionTeam
+{
+    background-color: white;
+    border-top: 1px rgb(224, 224, 224) solid;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.sectionTeamImgInfo
+{
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 183, 255, 0.664);
+    opacity:  0%;
+    transform: translatey(10px);
+    
+    
+    transition:  transform 250ms ease-in-out, opacity 250ms ease-in-out;
+ 
+
+    
+
+}
+
+.sectionTeamImgInfo p
+{
+    position: absolute;
+  
+    left:10px;
+}
+
+.bottom_2px
+{
+    bottom:2;
+}
+
+.bottom_10px
+{
+    bottom:25px;
+}
+
+.sectionTeamImgInfo:hover
+{
+    
+    transform:translateY(0px);
+    opacity: 100%;
+
+}
+
+.sectionWhatwe
+{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: #787878;
+}
+
+.sectionWhatwe_headerText
+{
+    font-size:13px;
+    
+}
+
+
+.sectionWhatwe_title
+{
+    text-align: left !important;
+   
+    padding-top: 100px;
+}
+
+.sectionWhatwe_title_bg_letter
+{
+    left:26px;
+    top:120px;
+}
+
+
+.sectionWhatwe_points
+{
+    padding-top: 100px;
+}
+
+.sectionPrices
+{
+    background-color:#f7f7f7;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.sectionPrices_priceFont
+{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.sectionPrices_dollarsign
+{
+    top:70px;
+    left:20px;
+}
+
+.sectionPrices_priceFont:after
+{
+    content: "";
+    border-bottom: 1px rgba(128, 128, 128, 0.137) solid;
+    display:block;
+  
+
+
+
+}
+
+.signup_button
+{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 16px 10px 16px;
+    background-color: #00c3da;
+    border-color: #00c3da;
+    transition: transform 250ms ease-in-out;
+
+}
+
+.signup_button:hover
+{
+    transform:translateY(-2px) !important;
+    background-color: #00c3da;
+    border-color: #00c3da;
+}
+
+.pricesPanel
+{
+    transform:scale(1);
+    transition: transform 250ms ease-in-out;
+}
+
+.pricesPanel:hover
+{
+    transform:scale(1.03);
+}
+
+.goldPriceSection
+{
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+}
+
+.goldPriceSection_price_text
+{
+    font-size:65px;
+    font-weight: 600;
+    color: #00c3da;
+}
+
+.sectionHappycustomers
+{
+    background-color:#f7f7f7;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.arrowSections
+{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: auto;
+    font-size: 60px;
+}
+
+.customerFrame
+{
+    padding:120px 0px 90px 0px;
+    background-color: white;
+    box-shadow: 0px 0px 49px -2px rgba(0,0,0,0.28)
+    
+}
+
+.customer_img
+{
+    top:-50px;
+
+    
+
+}
+
+.customer_img_wd
+{
+    width: 35%;
+}
